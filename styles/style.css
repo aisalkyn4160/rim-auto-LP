@@ -1,0 +1,213 @@
+@import url('./header-style.css');
+@import url('./promo-style.css');
+@import url('./advantages-style.css');
+@import url('./buy-style.css');
+@import url('./catalog-style.css');
+@import url('./about-style.css');
+@import url('./mission-style.css');
+@import url('./team-style.css');
+@import url('reviews-style.css');
+@import url('./feedback-form-style.css');
+@import url('./footer-style.css');
+/* -------------------------------------------reset-styles------------------------------------------- */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+:focus, :active{outline: none;}
+a:focus, a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html, body{
+	height: 100%;
+	width: 100%;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea{font-family: inherit;}
+
+input::-ms-clear{display:none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a, a:visited{text-decoration: none; color: inherit;}
+ul li{list-style-type: none;}
+
+h1,h2, h3, h4, h5, h6{font-style: inherit;}
+
+/* -------------------------------------------main-styles------------------------------------------- */
+html{
+	scroll-behavior: smooth;
+}
+body{
+	font-family: "Manrope", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+}
+body.no-scroll{
+	overflow: hidden;
+}
+.container{
+	max-width: 1230px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+button{
+	white-space: nowrap;
+	padding: 13px 40px 18px;
+	font-size: 20px;
+	font-weight: 600;
+	border-radius: 30px;
+	text-align: center;
+}
+
+button:hover{
+	color: rgb(252, 252, 252);
+    background: rgb(253, 75, 56);
+    transition: all 0.5s ease;
+}
+.btn-link{
+    display: inline-block;
+    border: 5px solid transparent;
+    border-radius: 35px;
+}
+.btn-link:hover{
+    border-color: rgba(256, 46, 23, 0.4);
+    transition: border-color 0.5s ease;
+}
+
+h1{	
+	max-width: 691px;
+	font-size: 60px;
+	font-weight: 800;
+	line-height: 120%;
+	margin: 0 auto 32px;
+}
+
+h2{
+	color: rgb(44, 46, 53);
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 120%;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+h3{
+	font-size: 20px;
+	font-weight: 600;
+}
+
+h3 span{
+	color: rgb(255, 46, 23);
+}
+
+h5{
+	color: rgba(252, 252, 252, 0.7);
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 140%;
+	text-align: left;
+}
+
+h6{
+	color: rgba(252, 252, 252, 0.7);
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 140%;
+}
+h6 span{
+	display: block;
+}
+.swiper-pagination-bullet {
+    background-color: transparent;
+    border: 1px solid rgb(44, 46, 53);
+    opacity: 0.5;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+}
+.swiper-pagination-bullet-active {
+    border-color: transparent;
+    background: rgba(255, 46, 23, 1);
+    opacity: 1;
+    position: relative;
+}
+.swiper-pagination-bullet-active::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgba(255, 46, 23, 0.4);
+
+}
+.swiper-button-next, .swiper-button-prev{
+	top: var(--swiper-navigation-top-offset, 58%);
+}
+.swiper-button-next::after, 
+.swiper-button-prev::after {
+	width: 40px;
+	height: 40px;
+    color: #2E2E2E;
+    background: white;
+    font-size: 14px;
+	font-weight: 700;
+    border-radius: 50%;
+    line-height: 0.5;
+    cursor: pointer;
+	border: 1px solid rgba(44, 46, 53, 0.1);
+}
+.swiper-button-prev:after{
+	padding: 16px 15px;
+}
+.swiper-button-next:after{
+	padding: 17px;
+}
+.swiper-button-next:hover::after, 
+.swiper-button-prev:hover::after {
+	background-color: rgb(44, 46, 53);
+	color: rgb(252, 252, 252);
+	transition: all 0.5s ease;
+} 
+@media (max-width: 950px) {
+	h1{
+		font-size: 25px;
+		margin-bottom: 20px;
+	}
+
+	h2{
+		font-size: 25px;
+		margin-bottom: 20px;
+	}
+	
+	h3{
+		font-size: 15px;
+	}
+	button{
+		font-size: 15px;
+		padding: 10px 30px 13px;
+	}
+}
+
+@media (max-width: 500px) {
+	.swiper-button-next, .swiper-button-prev{
+		display: none;
+	}
+}

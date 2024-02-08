@@ -1,0 +1,104 @@
+.buy{
+    padding: 60px 0;
+}
+
+.buy-content{
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    gap: 29px;
+}
+
+.buy-content img{
+    min-width: 40%;
+}
+
+.buy-list{
+    max-width: 671px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.buy-list li{
+    border: 1px solid rgba(44, 46, 53, 0.1);
+    border-radius: 30px;
+    padding: 30px 10px 30px 40px;
+    position: relative;
+}
+
+.circle{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: rgba(255, 46, 23, 0.4);;
+    position: absolute;
+    top: 50%;
+    left: -25px;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle span{
+    width: 35px;
+    height: 35px;
+    background-color: rgb(255, 46, 23);
+    border-radius: 50%;
+    color: rgb(252, 252, 252);
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buy-list p{
+    color: rgb(44, 46, 53);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    opacity: 0.7;
+    margin-top: 5px;
+}
+
+@media (max-width: 950px) {
+    .buy{
+        padding: 20px 0;
+    }
+    .buy-content{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .buy-content img{
+        width: 100%;
+    }
+
+    .buy-list{
+        max-width: 100%;
+        padding: 0px 0px 0px 15px;
+    }
+    .buy-list li{
+        border-radius: 20px;
+        padding: 20px 20px 20px 30px;
+    }
+    .buy-list p{
+        font-size: 12px;
+    }
+    
+    .circle {
+        width: 35px;
+        height: 35px;
+        left: -15px;
+    }
+    .circle span{
+        width: 30px;
+        height: 30px;
+        font-size: 20px;
+    }
+}

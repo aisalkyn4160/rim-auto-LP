@@ -1,0 +1,103 @@
+.feedback-form{
+    color: rgb(252, 252, 252);
+    padding: 60px 0;
+}
+.feedback-form .container{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    padding: 40px 40px 0 40px;
+}
+
+.feedback-form h2{
+    color: rgb(252, 252, 252);
+    margin-bottom: 0;
+}
+.form-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+.manager{
+    width: 440px;
+    position: relative;
+    
+}
+.manager img{
+    vertical-align: bottom;
+    margin-right: 40px;
+}
+.manager-info{
+    position: absolute;
+    top: 80px;
+    right: 0;
+}
+.manager-info h3{
+    display: block;
+    border-bottom: 1px solid rgb(255, 46, 23);
+    width: max-content;
+}
+.manager-info span{
+    display: block; 
+    opacity: 0.7;
+    margin-top: 10px;
+}
+.form{
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form input{
+    width: 100%;
+    border-radius: 30px;
+    background: rgb(252, 252, 252);
+    padding: 13px 30px 18px;
+}
+.form input:focus::placeholder {
+    opacity: 0;
+  }
+
+.form p{
+    margin: 10px 0;
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+}
+.form p a{
+    text-decoration: underline;
+}
+.feedback-form button{
+    width: 100%;
+}
+
+@media (max-width: 850px) {
+    .feedback-form{
+        padding: 20px 0 40px;
+    }
+    .feedback-form .container{
+        padding: 20px 15px; 
+    }
+    .form-wrapper{
+        justify-content: center;
+        margin-top: 15px;
+    }
+    .manager{
+        display: none;
+    }
+    .form{
+        gap: 10px;
+    }
+    .form input{
+        padding: 10px 20px 13px;
+    }
+
+    .form p{
+        font-size: 12px;
+        text-align: center;
+    }
+}

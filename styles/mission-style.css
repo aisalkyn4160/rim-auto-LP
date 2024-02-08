@@ -1,0 +1,47 @@
+.mission{
+    border-radius: 30px;
+    background: rgb(255, 46, 23);
+    padding: 40px;
+    position: relative;
+    margin: 40px 0;
+}
+
+.mission p{
+    position: relative;
+    color: rgb(252, 252, 252);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0%;
+    z-index: 20;
+    margin-top: 10px;
+}
+
+.mission img{
+    position: absolute;
+    bottom: 22px;
+    right: 40px;
+    z-index: 10;
+}
+
+@media (max-width: 950px) {
+    .mission{
+        padding: 20px;
+        margin: 20px 0;
+    }
+    .mission h5{
+        font-size: 15px;
+    }
+    .mission p{
+        font-size: 25px;
+        margin-top: 5px;
+    }
+
+    .mission img{
+        width: 83px;
+        height: 65px;
+        bottom: 20px;
+        right: 20px;
+    }
+    
+}

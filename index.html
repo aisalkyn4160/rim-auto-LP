@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Рим Авто</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">
+                <img class="logo-close" src="./assets/icons/logo.png" alt="logo">
+                <img class="logo-open" src="./assets/icons/logo-open.png" alt="logo">
+            </a>
+            <nav>
+                <h3>Пункты меню</h3>
+                <ul>
+                    <li><a href="#buy">Покупка авто</a></li>
+                    <li><a href="#catalog">Каталог</a></li>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#reviews">Отзывы</a></li>
+                    <li><a href="#team">Связаться</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>
+            </nav>
+
+            <a class="header-btn-link" href="#form" >
+                <button class="header-btn">Заказать звонок</button>
+            </a>
+
+            <div class="burger">
+                <img class="menu" src="./assets/icons/menu.png" alt="menu">
+                <img class="menu-close" src="./assets/icons/menu_close.png" alt="menu-close">
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="promo" style="background-image: url('./assets/imgs/banner.jpg');">
+            <div class="container">
+                <div class="promo-content">
+                    <p>Новые / С пробегом / Сервис / Выкуп </p>
+                    <h1>Продажа автомобилей из Кореи и Китая</h1>
+                    <a href="#catalog" class="btn-link">
+                        <button>Перейти к каталогу</button>
+                    </a>
+                    <ul class="social-list">
+                        <li>
+                            <a href="https://t.me/+7 999 000-00-00">
+                                <img src="./assets/icons/telegram.png" alt="telegram">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://wa.me/+7 999 000-00-00">
+                                <img src="./assets/icons/whatsapp.png" alt="whatsapp">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#form">
+                                <img src="./assets/icons/dialog.png" alt="dialog">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+        </section>
+        <section class="advantages">
+            <div class="container">
+                <h2>Почему выбирают нас?</h2>
+                <div class="advantages-items-wrapper">
+                    <div class="advantages-item">
+                        <img src="./assets/icons/круг.png" alt="advantages-icon">
+                        <h3>Удобные <span>способы оплаты</span></h3>
+                        <p>Кредит, лизинг, оплата с НДС. Принимаем к оплате рубли, доллары, евро, сомы, тенге и юани.</p>
+                    </div>
+                    <div class="advantages-item">
+                        <img src="./assets/icons/круг2.png" alt="advantages-icon">
+                        <h3>Широкий <span>спектр услуг</span></h3>
+                        <p>Русификация. Детейлинг. Тонировка. Бронирование фар и другие работы</p>
+                    </div>
+                    <div class="advantages-item">
+                        <img src="./assets/icons/круг3.png" alt="advantages-icon">
+                        <h3>Помощь <span>с документами</span></h3>
+                        <p>Получение СБКТС, ЭПТС. Оплата утильсбора. Консультация по оформлению документов</p>
+                    </div>
+                    <div class="advantages-item">
+                        <img src="./assets/icons/круг4.png" alt="advantages-icon">
+                        <h3>Помощь <span>с таможней</span></h3>
+                        <p>Наша компания оказывает брокерские услуги по таможенной очистке на территории Кыргызской республики</p>
+                    </div>
+                    <div class="advantages-item">
+                        <img src="./assets/icons/круг5.png" alt="advantages-icon">
+                        <h3>Своя <span>транспортная компания</span></h3>
+                        <p>Страховка груза. Скоростная доставка. Отслеживание груза.</p>
+                    </div>
+                    <div class="advantages-item">
+                        <img src="./assets/icons/круг6.png" alt="advantages-icon">
+                        <h3>Огромный выбор <span>автомобилей</span></h3>
+                        <p>Автомобили в наличии и под заказ из стран Европы, США, ОАЭ, Китая, Кореи. Новые и с пробегом.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="buy" id="buy">
+            <div class="container">
+                <h2>Покупка авто</h2>
+                <div class="buy-content">
+                    <img src="./assets/imgs/buy-img.png" alt="img">
+                    <ul class="buy-list">
+                        <li>
+                            <div class="circle">
+                                <span>1</span>
+                            </div>
+                            <h3>Обращение к нам в компанию</h3>
+                            <p>Чтобы связаться с нами, достаточно оставить заявку на сайте, либо написать Whatsapp, либо позвонить по телефону 8 999 000-00-00</p>
+                        </li>
+                        <li>
+                            <div class="circle">
+                                <span>2</span>
+                            </div>
+                            <h3>Описание автомобиля</h3>
+                            <p>Вместе с менеджером компании вы определяете марку, модель, цвет и комплектацию вашего будущего автомобиля </p>
+                        </li>
+                        <li>
+                            <div class="circle">
+                                <span>3</span>
+                            </div>
+                            <h3>Заключение договора</h3>
+                            <p>После того, как вы определились с автомобилем, вы приезжаете к нам в автосалон и заключаете договор</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="catalog" id="catalog">
+            <div class="container">
+                <h2>Каталог</h2>
+                <div class="catalog-wrapper">
+                    <div class="catalog-item">
+                        <div class="catalog-img">
+                            <img src="./assets/imgs/adv-1.jpg" alt="catalog">
+                        </div>
+                       <div class="catalog-content">
+                            <div class="catalog-title">
+                                <h3>Exeed RX</h3>
+                                <span>3 930 000 руб</span>
+                            </div>
+                            <div class="catalog-description">
+                                <span>2023 г. выпуска</span>
+                                <span>Мощность 249 л. с.</span>
+                                <span>Цвет: белый</span>
+                                <span>Полный привод</span>
+                                <span>Двигатель 2.0 л</span>
+                                <span>КПП: робот</span>
+                            </div>
+                            
+                       </div>
+                       <div class="catalog-btns">
+                            <a href="https://wa.me/+7 999 000-00-00">
+                                <button>Связаться в WhatsApp
+                                    <img src="./assets/icons/whatsapp.png" alt="whatsapp">
+                                </button>
+                            </a>
+                            <a href="https://t.me/+7 999 000-00-00">
+                                <button>Связаться в Telegram
+                                    <img src="./assets/icons/telegram.png" alt="telegram">
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="catalog-item">
+                        <div class="catalog-img">
+                            <img src="./assets/imgs/catalog-img1png.png" alt="catalog">
+                        </div>
+                       <div class="catalog-content">
+                            <div class="catalog-title">
+                                <h3>Exeed RX</h3>
+                                <span>3 930 000 руб</span>
+                            </div>
+                            <div class="catalog-description">
+                                <span>2023 г. выпуска</span>
+                                <span>Мощность 249 л. с.</span>
+                                <span>Цвет: белый</span>
+                                <span>Полный привод</span>
+                                <span>Двигатель 2.0 л</span>
+                                <span>КПП: робот</span>
+                            </div>
+                       </div>
+                       <div class="catalog-btns">
+                            <a href="https://wa.me/+7 999 000-00-00">
+                                <button>Связаться в WhatsApp
+                                    <img src="./assets/icons/whatsapp.png" alt="whatsapp">
+                                </button>
+                            </a>
+                            <a href="https://t.me/+7 999 000-00-00">
+                                <button>Связаться в Telegram
+                                    <img src="./assets/icons/telegram.png" alt="telegram">
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="catalog-item">
+                        <div class="catalog-img">
+                            <img src="./assets/imgs/catalog-img1png.png" alt="catalog">
+                        </div>
+                       <div class="catalog-content">
+                            <div class="catalog-title">
+                                <h3>Exeed RX</h3>
+                                <span>3 930 000 руб</span>
+                            </div>
+                            <div class="catalog-description">
+                                <span>2023 г. выпуска</span>
+                                <span>Мощность 249 л. с.</span>
+                                <span>Цвет: белый</span>
+                                <span>Полный привод</span>
+                                <span>Двигатель 2.0 л</span>
+                                <span>КПП: робот</span>
+                            </div>
+                       </div>
+                       <div class="catalog-btns">
+                            <a href="https://wa.me/+7 999 000-00-00">
+                                <button>Связаться в WhatsApp
+                                    <img src="./assets/icons/whatsapp.png" alt="whatsapp">
+                                </button>
+                            </a>
+                            <a href="https://t.me/+7 999 000-00-00">
+                                <button>Связаться в Telegram
+                                    <img src="./assets/icons/telegram.png" alt="telegram">
+                                </button>
+                            </a>
+                    </div>
+                    </div>
+                </div>
+                <a href="#" class="btn-link">
+                    <button>
+                        Смотреть все предложения
+                    </button>
+                </a>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="container">
+                <h2>О компании</h2>
+                <div class="about-content">
+                    <ul class="about-list">
+                        <li>
+                            <div class="about-list-title collapsible">
+                                <h3>Компания <span>РимАвто</span></h3>
+                                <span class="collapse-btn">
+                                    <img src="./assets/icons/Arrow 3.png" alt="arrow">
+                                </span> 
+                            </div>
+                            <div class="about-list-content">
+                                <p>Основным видом деятельности является продажа автомобилей 
+                                    в наличии и под заказ любых марок, новых и с пробегом. Наша компания оказывает логистические и брокерские услуги 
+                                    по таможенной очистке на территории Кыргызской республики.
+                                </p>
+                                <p>Нашим клиентам мы можем предложить дополнительные услуги такие как <b>кредит, лизинг, оплата с НДС, получение СБКТС, ЭПТС, оплата утильсбора и подбор авто.</b></p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="about-list-title collapsible">
+                                <h3>Удобное <span>расположение салонов</span></h3>
+                                <span class="collapse-btn">
+                                    <img src="./assets/icons/Arrow 3.png" alt="arrow">
+                                </span> 
+                            </div>
+                            <div class="about-list-content">
+                                <p>Основным видом деятельности является продажа автомобилей 
+                                    в наличии и под заказ любых марок, новых и с пробегом. Наша компания оказывает логистические и брокерские услуги 
+                                    по таможенной очистке на территории Кыргызской республики.
+                                </p>
+                                <p>Нашим клиентам мы можем предложить дополнительные услуги такие как <b>кредит, лизинг, оплата с НДС, получение СБКТС, ЭПТС, оплата утильсбора и подбор авто.</b></p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="about-list-title collapsible">
+                                <h3>Широкий <span>спектр услуг</span></h3>
+                                <span class="collapse-btn">
+                                    <img src="./assets/icons/Arrow 3.png" alt="arrow">
+                                </span> 
+                            </div>
+                            <div class="about-list-content">
+                                <p>Основным видом деятельности является продажа автомобилей 
+                                    в наличии и под заказ любых марок, новых и с пробегом. Наша компания оказывает логистические и брокерские услуги 
+                                    по таможенной очистке на территории Кыргызской республики.
+                                </p>
+                                <p>Нашим клиентам мы можем предложить дополнительные услуги такие как <b>кредит, лизинг, оплата с НДС, получение СБКТС, ЭПТС, оплата утильсбора и подбор авто.</b></p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="about-list-title collapsible">
+                                <h3><span>Реквизиты</span></h3>
+                                <span class="collapse-btn">
+                                    <img src="./assets/icons/Arrow 3.png" alt="arrow">
+                                </span> 
+                            </div>
+                            <div class="about-list-content">
+                                <p>Основным видом деятельности является продажа автомобилей 
+                                    в наличии и под заказ любых марок, новых и с пробегом. Наша компания оказывает логистические и брокерские услуги 
+                                    по таможенной очистке на территории Кыргызской республики.
+                                </p>
+                                <p>Нашим клиентам мы можем предложить дополнительные услуги такие как <b>кредит, лизинг, оплата с НДС, получение СБКТС, ЭПТС, оплата утильсбора и подбор авто.</b></p>
+                            </div>
+                        </li>
+                        
+                    </ul>
+                    <div class="about-gallery">
+                        <div class="swiper mySwiper2">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="./assets/imgs/about-img1.png" alt="img">
+                                    <h3>Коллектив компании “РимАвто”</h3>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./assets/imgs/about-img2.png" alt="img">
+                                    <h3>Коллектив компании “РимАвто” 2</h3>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./assets/imgs/about-img3.png" alt="img">
+                                    <h3>Коллектив компании “РимАвто” 3</h3>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./assets/imgs/about-img4.png" alt="img">
+                                    <h3>Коллектив компании “РимАвто” 4</h3>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                        <div thumbSlider="" class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="./assets/imgs/about-img1.png" alt="img">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./assets/imgs/about-img2.png" alt="img">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./assets/imgs/about-img3.png" alt="img">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./assets/imgs/about-img4.png" alt="img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="container">
+            <section class=" mission">
+                <h5>Наша главная миссия</h5>
+                <p>Сделать покупку автомобиля простой и понятной, чтобы это было не сложнее, чем заказать пиццу.</p>
+                <img src="./assets/icons/missionVector.png" alt="Vector">
+            </section>
+        </div>
+        <section class="team" id="team">
+            <div class="container">
+                <h2>Коллектив компании</h2>
+                <div class="swiper teamSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="team-card">
+                                <img src="./assets/imgs/team1.png" alt="team">
+                                <div class="team-card-info">
+                                    <h6>Директор</h6>
+                                    <p>Ирина Михайловна</p>
+                                   <div class="team-card-tel">
+                                        <h6>Телефон</h6>
+                                        <p>+7 913 006-55-03</p>
+                                   </div>
+                                    <a class="btn-link" href="">
+                                        <button>Связаться</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="team-card">
+                                <img src="./assets/imgs/team2.png" alt="team">
+                                <div class="team-card-info">
+                                    <h6>Руководитель филиала,
+                                        <span>г. Новосибирск</span>
+                                    </h6>
+                                    <p>Александр Безруков</p>
+                                    <div class="team-card-tel">
+                                        <h6>Телефон</h6>
+                                        <p>+7 913 006-55-03</p>
+                                   </div>
+                                    <a href="">
+                                        <button>Связаться</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="team-card">
+                                <img src="./assets/imgs/team3.png" alt="team">
+                                <div class="team-card-info">
+                                    <h6>Менеджер по продажам,
+                                        <span>г. Новосибирск</span>
+                                    </h6>
+                                    <p>Константин Шевцов</p>
+                                    <div class="team-card-tel">
+                                        <h6>Телефон</h6>
+                                        <p>+7 913 006-55-03</p>
+                                   </div>
+                                    <a href="">
+                                        <button>Связаться</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="team-card">
+                                <img src="./assets/imgs/team4.png" alt="team">
+                               <div class="team-card-info">
+                                    <h6>Менеджер по продажам,
+                                        <span>г. Новосибирск</span>
+                                    </h6>
+                                    <p>Матвей Некрасов</p>
+                                    <div class="team-card-tel">
+                                        <h6>Телефон</h6>
+                                        <p>+7 913 006-55-03</p>
+                                    </div>
+                                    <a href="">
+                                        <button>Связаться</button>
+                                    </a>
+                               </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="team-card">
+                                <img src="./assets/imgs/team4.png" alt="team">
+                                <div class="team-card-info">
+                                    <h6>Менеджер по продажам,
+                                        <span>г. Новосибирск</span>
+                                    </h6>
+                                    <p>Матвей Некрасов</p>
+                                    <div class="team-card-tel">
+                                        <h6>Телефон</h6>
+                                        <p>+7 913 006-55-03</p>
+                                   </div>
+                                    <a href="">
+                                        <button>Связаться</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="swiper-pagination"></div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </section>
+        <section class="reviews" id="reviews">
+            <div class="container">
+                <h2>Отзывы клиентов</h2>
+                <div class="swiper reviewsSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="reviews-card">
+                                <div class="reviews-card-title">
+                                    <img src="./assets/imgs/review1.png" alt="review1">
+                                    <h3>Алена Лапина <span>Покупка Voyah Free </span></h3>
+                                </div>
+                                <p>Далеко-далеко за словесными горами в стране гласных 
+                                    и согласных живут рыбные тексты. Вдали от всех живут они 
+                                    в буквенных домах на берегу Семантика большого языкового океана. Маленький ручеек Даль журчит по всей стране и обеспечивает ее всеми необходимыми правилами. Даже всемогущая пунктуация не имеет власти над рыбными текстами, ведущими безорфографичный образ жизни. Однажды одна маленькая строчка рыбного текста по имени Lorem ipsum решила выйти в большой мир грамматики.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="reviews-card">
+                                <div class="reviews-card-title">
+                                    <img src="./assets/imgs/review2.png" alt="review2">
+                                    <h3>Владислав Григорьев <span>Покупка Exeed RX </span></h3>
+                                </div>
+                                <p>Далеко-далеко за словесными горами в стране гласных 
+                                    и согласных живут рыбные тексты. Вдали от всех живут они 
+                                    в буквенных домах на берегу Семантика большого языкового океана. Маленький ручеек Даль журчит по всей стране и обеспечивает ее всеми необходимыми правилами. Даже всемогущая пунктуация не имеет власти над рыбными текстами, ведущими безорфографичный образ жизни. Однажды одна маленькая строчка рыбного текста по имени Lorem ipsum решила выйти в большой мир грамматики.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="reviews-card">
+                                <div class="reviews-card-title">
+                                    <img src="./assets/imgs/review2.png" alt="review2">
+                                    <h3>Владислав Григорьев <span>Покупка Exeed RX </span></h3>
+                                </div>
+                                <p>Далеко-далеко за словесными горами в стране гласных 
+                                    и согласных живут рыбные тексты. Вдали от всех живут они 
+                                    в буквенных домах на берегу Семантика большого языкового океана. Маленький ручеек Даль журчит по всей стране и обеспечивает ее всеми необходимыми правилами. Даже всемогущая пунктуация не имеет власти над рыбными текстами, ведущими безорфографичный образ жизни. Однажды одна маленькая строчка рыбного текста по имени Lorem ipsum решила выйти в большой мир грамматики.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </section>
+        <section class="feedback-form" id="form">
+            <div class="container" style="background-image: url('./assets/imgs/form-bg.jpeg');">
+                <h2>Остались вопросы?</h2>
+                <div class="form-wrapper">
+                    <div class="manager">
+                        <img src="./assets/imgs/form-img.png" alt="manager">
+                        <div class="manager-info">
+                            <h3>Александр</h3>
+                            <span>Старший менеджер</span>
+                        </div>
+                    </div>
+                    <form class="form">
+                        <input type="text" placeholder="Имя*" required>
+                        <input type="tel"  placeholder="Телефон*" required>
+                        <input type="text" placeholder="Желаемое авто">
+                        <p>Знаком * отмечены обязательные поля. Нажимая на кнопку, вы соглашаетесь <a href="#">на обработку персональных данных</a>.</p>
+                        <div class="btn-link"><button>Отправить заявку</button></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer" id="contacts">
+        <div class="container">
+            <div class="footer-top">
+                <a href="#" class="logo"><img src="./assets/icons/logo.png" alt="logo"></a>
+
+                <div class="footer-info">
+                    <nav>
+                        <h3>Пункты меню</h3>
+                        <ul>
+                            <li><a href="#buy">Покупка авто</a></li>
+                            <li><a href="#catalog">Каталог</a></li>
+                            <li><a href="#about">О нас</a></li>
+                            <li><a href="#reviews">Отзывы</a></li>
+                            <li><a href="#">Связаться</a></li>
+                            <li><a href="#contacts">Контакты</a></li>
+                        </ul>
+                    </nav>
+                    <div class="office-list">
+                        <h3>Контакты офисов</h3>
+                            <ul class="office-contacts">
+                                <li>
+                                    <p>Россия, г. Москва, ТЦ РИО, Дмитровское шоссе, 163 а (м. Лианозово)</p>
+                                    <p>+7 965 285 58 04</p>
+                                    <p>+7 995 570 55 03</p>
+                                </li>
+                                <li>
+                                    <p>Россия, г. Новосибирск, пр-д Энергетиков, д. 4 </p>
+                                    <p>+7 999 000 00 00</p>
+                                    <p><a href="mailto:info@rimavto.ru">info@rimavto.ru</a></p>
+                                </li>
+                                <li>
+                                    <p>Киргизия, г. Бишкек,ул. Ауэзова, д. 1/6 </p>
+                                    <p>+7 999 000 00 00</p>
+                                    <p><a href="mailto:info@rimavto.ru">info@rimavto.ru</a></p>
+                                </li>
+                            </ul>
+                    </div>
+                    <div class="requisites">
+                        <h3>Реквизиты</h3>
+                        <ul>
+                            <li>
+                                <p>Российская Федерация</p>
+                                <span>ИНН  5403077051 </span>
+                                <span>БИК  045004774</span>
+                            </li>
+                            <li>
+                                <p>Республика Кыргызстан</p>
+                                <span>ИНН  03005202310461</span>
+                                <span>БИК  124012</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <ul class="social-list">
+                    <li>
+                        <a href="https://t.me/rimavto" class="social-link">
+                            <img src="./assets/icons/footer-telegram.png" alt="telegram">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://wa.me/79652855804" class="social-link">
+                            <img src="./assets/icons/footer-whatsapp.png" alt="whatsapp">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#form" class="social-link">
+                            <img src="./assets/icons/footer-dialog.png" alt="dialog">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="header-btn-link" href="#form" >
+                            <button class="header-btn">Заказать звонок</button>
+                        </a>
+                    </li>
+                </ul>
+
+                <p>© 2024 РимАвто</p>
+
+                <div class="developed">
+                    <span>
+                        Создание сайтов
+                        <a href="https://webdev.pro">
+                            Продвижение сайтов
+                        </a>
+                    </span>
+                    <img src="./assets/icons/Kontur-SVG 1.png" alt="KONTUR">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
