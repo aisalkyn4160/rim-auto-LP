@@ -166,3 +166,20 @@ const reviewsSwiper = new Swiper(".reviewsSwiper", {
     },
     spaceBetween: 29,
 })
+
+
+// ---------------------------Catalog---------------------------
+
+document.addEventListener('DOMContentLoaded', function() {
+  const showAllButton = document.querySelector('.show-all-btn button');
+  const hiddenItems = document.querySelectorAll('.hidden-item');
+  const catalogWrapper = document.querySelector('.catalog-wrapper');
+
+  showAllButton.addEventListener('click', function() {
+    hiddenItems.forEach(item => {
+      item.style.display = 'flex';
+    });
+    showAllButton.style.display = 'none'; 
+    catalogWrapper.style.marginBottom = '0';
+  });
+});
