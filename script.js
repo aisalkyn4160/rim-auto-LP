@@ -144,7 +144,7 @@ const teamSwiper = new Swiper(".teamSwiper", {
 })
 
 const reviewsSwiper = new Swiper(".reviewsSwiper", {
-    // loop: true,
+    loop: true,
     slidesPerView: 2,
     navigation: {
       nextEl: '.rev-swiper-btn-next',
@@ -171,7 +171,7 @@ const reviewsSwiper = new Swiper(".reviewsSwiper", {
 // ---------------------------Catalog---------------------------
 
 document.addEventListener('DOMContentLoaded', function() {
-  const showAllButton = document.querySelector('.show-all-btn button');
+  const showAllButton = document.querySelector('.show-all-btn');
   const hiddenItems = document.querySelectorAll('.hidden-item');
   const catalogWrapper = document.querySelector('.catalog-wrapper');
 
