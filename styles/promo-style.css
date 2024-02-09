@@ -26,6 +26,18 @@
     right: 0px;
     transform: translateY(-50%);
 }
+.promo-content .social-link{
+    border: none;
+}
+.promo-content .telegram-icon{
+    background: rgb(38, 164, 227);
+}
+.promo-content .whatsapp-icon{
+    background: rgb(0, 195, 7);
+}
+.promo-content .dialog-icon{
+    background: rgb(255, 46, 23);
+}
 
 @media (max-width: 950px) {
     .promo{
@@ -45,8 +57,12 @@
         transform: translateX(50%);
     }
     
-    .promo-content .social-list li img{
+    .promo-content .social-list .social-link{
         width: 36px;
         height: 36px;
+    }
+    .promo-content .social-list img{
+        width: 16px;
+        height: 16px;
     }
 }

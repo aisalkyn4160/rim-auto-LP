@@ -117,8 +117,8 @@ const teamSwiper = new Swiper(".teamSwiper", {
     loop: true,
     slidesPerView: 4,
     navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+      nextEl: '.team-swiper-btn-next',
+      prevEl: '.team-swiper-btn-prev',
     },
     pagination: {
       el: '.swiper-pagination',
@@ -144,11 +144,11 @@ const teamSwiper = new Swiper(".teamSwiper", {
 })
 
 const reviewsSwiper = new Swiper(".reviewsSwiper", {
-    loop: true,
+    // loop: true,
     slidesPerView: 2,
     navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+      nextEl: '.rev-swiper-btn-next',
+      prevEl: '.rev-swiper-btn-prev',
     },
     pagination: {
       el: '.swiper-pagination',

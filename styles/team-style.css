@@ -21,7 +21,7 @@
 
 .team-card-info{
     position: absolute;
-    bottom: -170px;
+    bottom: -85px;
     left: 0;
     width: 100%;
     height: 100%;
@@ -37,13 +37,9 @@
     font-size: 20px;
     font-weight: 600;
     line-height: 27px;
-    margin-bottom: 30px;
 }
-
-.team-card-info button{
-    width: 100%;
-    text-align: center;
-    padding: 10px 0px 12px;
+.team-card-tel{
+    margin-top: 30px;
 }
 
 .team-card:hover .team-card-info{   
@@ -65,4 +61,14 @@
     .teamSwiper .swiper-pagination{
         display: block;
     }
+
+    .team-card-info{
+        padding: 0 20px 20px 20px;
+    }
+
+    .team-card-info p{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
 }

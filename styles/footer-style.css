@@ -86,19 +86,7 @@
     align-items: center;
     gap: 10px;
 }
-.footer-bottom .social-link{
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 46px;
-    height: 46px;
-    border-radius: 50%;
-    border: 1px solid rgba(252, 252, 252, 0.5);
-}
-.footer-bottom .social-link:hover{
-    background-color: rgba(252, 252, 252, 0.4);
-    transition: background-color 0.5s ease;
-}
+
 .footer-bottom p{
     font-size: 15px;
     line-height: 20px;
