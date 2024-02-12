@@ -79,7 +79,7 @@
     font-size: 19px;
     position: relative;
     background-color: transparent;
-    border: 1px solid rgb(44, 46, 53);
+    border: 1px solid rgba(44, 46, 53, 1);
     color: rgb(44, 46, 53);
 }
 
@@ -91,8 +91,9 @@
 
 .catalog-btns button img{
     position: absolute;
-    top: 5px;
+    top: 50%;
     right: 5px;
+    transform: translateY(-50%);
 }
 @media (max-width: 1190px) {
     .catalog-wrapper{

@@ -73,21 +73,17 @@ button{
 	border-radius: 30px;
 	text-align: center;
 	color: rgb(252, 252, 252);
-    background: rgb(253, 75, 56);
+    background: rgb(255, 46, 23);
 }
 
 button:hover{
-	background-color: rgba(256, 46, 23, 0.6);
-    transition: all 0.5s ease;
+	background-color: rgb(255, 75, 56);
+    transition: all 1s ease;
 }
 .btn-link{
     display: inline-block;
     border: 5px solid rgba(256, 46, 23, 0.4);
     border-radius: 35px;
-}
-.btn-link:hover{
-    border-color: rgba(256, 46, 23, 1);
-    transition: border-color 0.5s ease;
 }
 
 h1{	

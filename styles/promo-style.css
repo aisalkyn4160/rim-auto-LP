@@ -30,13 +30,23 @@
     border: none;
 }
 .promo-content .telegram-icon{
-    background: rgb(38, 164, 227);
+    background: rgba(38, 164, 227, 1);
+}
+.promo-content .telegram-icon:hover{
+    background: rgba(34, 143, 197, 1);
 }
 .promo-content .whatsapp-icon{
-    background: rgb(0, 195, 7);
+    background: rgba(0, 195, 7, 1);
 }
+.promo-content .whatsapp-icon:hover{
+    background: rgba(21, 172, 26, 1);
+}
+
 .promo-content .dialog-icon{
-    background: rgb(255, 46, 23);
+    background: rgba(255, 46, 23, 1);
+}
+.promo-content .dialog-icon:hover{
+    background: rgba(217, 49, 31, 1);
 }
 
 @media (max-width: 950px) {
