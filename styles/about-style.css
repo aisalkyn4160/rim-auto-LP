@@ -26,6 +26,7 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 .collapse-btn.active img{
     transform: rotate(180deg);
@@ -61,6 +62,7 @@
 
 .mySwiper .swiper-slide{
     position: relative;
+    cursor: pointer;
 }
 .mySwiper .swiper-slide::after{
     content: '';

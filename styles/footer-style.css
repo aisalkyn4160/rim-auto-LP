@@ -53,11 +53,15 @@
     line-height: 22px;
 }
 .office-list ul p{
-    max-width: 160px;
+    max-width: 183px;
     letter-spacing: 0%;
     margin-bottom: 20px;
 }
 .office-list a{
+    white-space: nowrap;
+    /* cursor: pointer; */
+}
+.office-list .mail-link{
     text-decoration: underline;
     color: rgb(255, 68, 56);
 }

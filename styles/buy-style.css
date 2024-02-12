@@ -4,13 +4,14 @@
 
 .buy-content{
     display: flex;
-    align-items: top;
+    align-items: flex-start;
     justify-content: space-between;
     gap: 29px;
 }
 
 .buy-content img{
-    min-width: 40%;
+    width: 500px;
+    object-fit: contain;
 }
 
 .buy-list{
