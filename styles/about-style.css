@@ -52,7 +52,13 @@
 .about-gallery{
     width: 49%;
 }
-
+.mySwiper2 .swiper-slide img{
+    /* width: 600px; */
+    width: 100%;
+    max-height: 398px;
+    border-radius: 30px;
+    object-fit: cover;
+}
 .mySwiper img{
     width: 187px;
     height: 125px;
@@ -82,7 +88,9 @@
 }
 .mySwiper .swiper-slide img{
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
+    object-fit: cover;
+    border-radius: 28px;
     vertical-align: bottom;
 }
 
@@ -151,8 +159,9 @@
     .mySwiper2 h3{
         margin: 10px auto 30px;
     }
-    .mySwiper2 img{
+    .mySwiper2 .swiper-slide img{
         border-radius: 20px;
+        height: 192px;
     }
     .about-content{
         gap: 0;
