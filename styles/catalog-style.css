@@ -158,6 +158,13 @@
         color: rgb(252, 252, 252);
         transition: all 0.5s ease;
     }
+    .show-all-btn{
+        width: 100%;
+    }
+    .show-all-btn button{
+        width: 100%;
+    }
+   
 }
 
 @media (max-width: 400px) {
