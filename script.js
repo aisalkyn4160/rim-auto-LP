@@ -128,6 +128,9 @@ const teamSwiper = new Swiper(".teamSwiper", {
           slidesPerView: 1,
       },
       500: {
+          slidesPerView: 1.5,
+      },
+      600: {
           slidesPerView: 2,
       },
       768: {
@@ -182,4 +185,17 @@ document.addEventListener('DOMContentLoaded', function() {
     showAllButton.style.display = 'none'; 
     catalogWrapper.style.marginBottom = '0';
   });
+});
+
+// ---------
+document.addEventListener('DOMContentLoaded', function() {
+  const phoneNumbers = document.querySelectorAll('.team-card-info .phone-number');
+  const teamCardInfo = document.querySelectorAll('.team-card-info');
+
+  phoneNumbers.forEach(phoneNumber => {
+    if (phoneNumber.textContent.length <= 0) {
+      phoneNumber.parentNode.style.opacity = '0';
+    } 
+  });
+
 });
