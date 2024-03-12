@@ -159,14 +159,16 @@
         transition: all 0.5s ease;
     }
     .catalog .btn-link{
-        margin: 0 auto !important;
+        display: block;
+        margin: 0 auto;
     }
     .show-all-btn{
-        /* width: 100%; */
+        display: inline-block;
+        width: 90%;
         margin: 0 auto !important;
     }
     .show-all-btn button{
-        /* width: 100%; */
+       width: 100%;
     }
    
 }
